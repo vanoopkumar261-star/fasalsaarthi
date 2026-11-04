@@ -1,0 +1,60 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+example
+
+# generated native folders
+/ios
+/android
+
+# build & run logs
+gradle-build.log
+metro.log
+apkserver.log
+apkserver.err.log
+device-build.log
+
+# JetBrains IDE config — per-developer, not part of the project.
+.idea/
+
+# Generated knowledge graph — rebuilt with `graphify update .`
+graphify-out/
+.claude/settings.json.graphify-bak
+
+# Release build log
+release-build.log
